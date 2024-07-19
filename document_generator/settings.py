@@ -78,13 +78,12 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'easy_docs_db',
-        'USER': 'easy_docs_user',
-        'PASSWORD': 'pssl11909 ',
+        'USER': 'postgres',
+        'PASSWORD': 'sql1212',
         'HOST': 'localhost',
         'PORT': '5432',
     }
 }
-
 
 
 # Password validation

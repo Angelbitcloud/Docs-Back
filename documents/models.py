@@ -3,7 +3,7 @@ import uuid
 
 class Document(models.Model):
     document_type = models.CharField(max_length=255)
-    content = models.TextField()
+    content = models.BinaryField()  # Cambiado a BinaryField
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
